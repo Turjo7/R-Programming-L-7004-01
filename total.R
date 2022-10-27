@@ -1,5 +1,5 @@
-print("Enter Two Values: ")
-val_1 <- as.integer(readline())
-val_2 <- as.integer(readline())
-result <- val_1+val_2
-result
+num_1 <- readLines("stdin",1)
+num_2 <- readLines("stdin",1)
+num_1 <- as.integer(num_1)
+num_2 <- as.integer(num_2)
+print(paste("The total number is:",num_1+num_2))
